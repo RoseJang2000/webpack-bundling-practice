@@ -26,11 +26,3 @@ module.exports = {
     }),
   ],
 };
-
-// module.exports = {
-//   entry: './data.js',
-//   output: {
-//     path: path.resolve(__dirname, 'dist'),
-//     filename: 'data.js',
-//   },
-// };
