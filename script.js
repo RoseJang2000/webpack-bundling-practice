@@ -135,6 +135,10 @@ form.addEventListener('submit', (event) => {
   };
   data.unshift(obj);
 
+  author.value = '';
+  title.value = '';
+  textbox.value = '';
+
   // 로컬스토리지에 저장
   localStorage.setItem('agoraStatesDiscussions', JSON.stringify(data));
 
